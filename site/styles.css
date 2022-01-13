@@ -1,94 +1,36 @@
-/** Set all boxes to border size **/
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-/** For phones **/
-@media (max-width: 767px) {
-  .col-phone {
-    width: 100%;
-  }
-}
-
-/** For tablets **/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-tablet-1 {
-    width: 50%;
-    float: left;
-  }
-  .col-tablet-2 {
-    width: 100%;
-    float: left;
-  }
-}
-
-/** For desktops **/
-@media (min-width: 992px) {
-  .col-desktop {
-    width: 33.33%;
-    float: left;
-  }
-}
-
-/** Header font and style **/
-h1 {
-  font-size: 200%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
-  font-style: italic;
-  margin-bottom: 15px;
-}
-
-/** Section title style **/
-.section-title {
-  background-color: rgb(98, 216, 224);
-}
-
-.section-box {
-  border: 4px solid rgb(0, 0, 0);
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 50%;
-  height: 25px;
+.center-list {
   text-align: center;
 }
 
-/** Formating of paragraphs in boxes **/
-div p {
+.center-list li a {
+  color: #fff;
   display: block;
-  text-align: left;
-  padding-top: 40px;
-  padding-inline-end: 5px;
-  padding-inline-start: 5px;
-  margin-block-end: 1em;
-  margin-block-start: 1em;
+  padding: 0.5rem 1rem;
 }
 
-div {
-  display: block;
+.header-top {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
 }
 
-/** Container sizing **/
-.container {
-  position: relative;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+.header-menu {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
 }
 
-.row {
-  width: 100%;
-}
-
-/** Box sizing and designs **/
-.box {
-  position: relative;
-  border: 1px solid black;
-  background-color: beige;
-  margin: 15px;
-  top: 0px;
+.menu-box {
+  background-color: #bfbfbf;
+  border: black 1px solid;
+  height: fit-content;
+  padding: 10px;
+  margin: 10px;
 }
